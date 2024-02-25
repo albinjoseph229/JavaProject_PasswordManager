@@ -1,4 +1,4 @@
-Password Manager<br>
+<h1>Password Manager<h1><br>
 The Password Manager is a Java application for managing passwords securely. It allows users to store, retrieve, edit, and remove passwords for various websites or applications.
 
 <br>Features<br>
