@@ -1,20 +1,20 @@
 Password Manager<br>
 The Password Manager is a Java application for managing passwords securely. It allows users to store, retrieve, edit, and remove passwords for various websites or applications.
 
-Features
+<br>Features<br>
 First-time setup: Set up a username and password for initial access.
 Login: Authenticate users with their username and password.
 Add Password: Add a new password for a website or application.
 Retrieve Password: Retrieve a password for a website or application.
 Edit Password: Edit an existing password for a website or application.
 Remove Password: Remove a password for a website or application.
-Technologies Used
+<br>Technologies Used<br>
 Java
 JDBC (Java Database Connectivity)
 MySQL Database
 AES Encryption Algorithm
-How to Use
-First-Time Setup:
+<br>How to Use<br>
+<br>First-Time Setup:<br>
 
 When you run the program for the first time, it will detect that it's the first-time login and prompt you to set up a username and password.
 Login:
@@ -38,11 +38,11 @@ Choose the "Remove a password" option from the menu, enter the website or applic
 Exiting the Program:
 
 Choose the "Exit" option from the menu to exit the program.
-Security Considerations
+<br>Security Considerations<br>
 Passwords are stored in an encrypted format using AES encryption to enhance security.
 User passwords are hashed using the SHA-256 algorithm before storing them in the database to prevent unauthorized access.
-Database Setup
+<br>Database Setup<br>
 The application uses a MySQL database to store user credentials and passwords.
 Ensure that you have a MySQL database set up with the appropriate schema and permissions before running the application.
-Dependencies
+<br>Dependencies<br>
 This project relies on the JDBC driver for MySQL to connect to the database. Ensure that the JDBC driver is included in the project's classpath.
